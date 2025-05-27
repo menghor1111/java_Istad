@@ -4,7 +4,7 @@ public class homeWork {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.printf("Enter Monthly salary in KHR:");
+        System.out.print("Enter Monthly salary in KHR:");
         double salary = scanner.nextDouble();
         double taxRate;
 
