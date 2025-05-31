@@ -38,10 +38,10 @@ public class controlFlow {
 //        System.out.println(sum);
 
 
-        int number =5;
+        int number = 5;
         int summer = 0;
-       //while loop
-        while(number > 0){
+        //while loop
+        while (number > 0) {
             summer += number;
             number--;
         }
@@ -50,10 +50,5 @@ public class controlFlow {
     }
 
     //
-
-  int n = 1 ;
-    while(n <= 5){
-        System.out.println("Hello");
-    }
 
 }
