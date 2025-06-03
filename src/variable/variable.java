@@ -1,3 +1,5 @@
+package variable;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class variable {
@@ -10,9 +12,11 @@ public class variable {
         System.out.print("Age");
         System.out.println(Age);
         System.out.print("AGE");
+        System.out.println(AGE);
+        System.out.println(AgE);
 
-        //numbers and sysmbols are not allowed
-        //
+        //numbers and symbols are not allowed
+        // _ , $
         String name = "Hor";
         String $name = "Hor";
         String _name = "Hor";
@@ -21,10 +25,16 @@ public class variable {
         System.out.println(_name);
 
 
-        int speedLimit = 80;
+        // manipulate a variable
+        int SpeedLimit = 80;
         System.out.println("speedLimit");
-        speedLimit = 40;
-        System.out.println(speedLimit);
+        SpeedLimit = 40;
+        System.out.println(SpeedLimit);
+
+        int ages = 20;
+        System.out.println(ages);
+        ages = 22;
+        System.out.println(ages);
 
         //local variales
         //local variables = a variables defined inside a method ,
@@ -50,6 +60,28 @@ public class variable {
         System.out.println("s1 length");
         System.out.println(s1Char);
         System.out.println("S1Substring");
+
+        // promotion: converts from smaller size to bigger size data type
+        int id = 333;
+        long idLong = id;
+        System.out.println(idLong);
+
+        //casting
+        long longVar = 15;
+        int ingvar = (int) longVar ;
+
+        //autoboxing: converts from primitive to wrapper class
+        int aged = 18;
+        Integer wrapperAge = aged;
+        System.out.println(wrapperAge);
+
+        //unboxing : converts from wrapper class to primitive
+        Integer year = 2025;
+        int intYear = year;
+        System.out.println(intYear);
+
+
+
 
 
     }
