@@ -1,17 +1,10 @@
 package classandObject;
 
 public class Student {
-    //1. Static Variable
-    static String name = "Meng hor";
-    //2. Instance Variable
-    String username = "menghor";
-    /**
-     * There are 4 types of variable
-     * 1. Static Variable
-     * 2. Instance Variable
-     * 3. Local Variable
-     * 4. Parameter
-     * */
+
+    public Student(String string, String thona, int i) {
+    }
+
     static void printWelcome(){
         //3. Local Variable
         int year = 2025;
@@ -20,6 +13,9 @@ public class Student {
     // 4. Parameter
     void printWelcome(int year){
 
+    }
+
+    public void showInfo() {
     }
 }
 
